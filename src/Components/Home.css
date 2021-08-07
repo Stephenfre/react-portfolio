@@ -1,0 +1,49 @@
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.about-me {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    width: 40%;
+    margin-left: 60px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 100;
+    padding: 5px 0;
+}
+
+p {
+    font-size: 16px;
+    padding-top: 5px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+.about-me-img {
+    margin-left: 75px;
+}
+
+img {
+    width: 670px;
+}
+
+.btn-links {
+    position: absolute;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    background: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    bottom: 150px;
+    left: 90px;
+}

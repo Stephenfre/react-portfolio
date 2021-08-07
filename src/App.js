@@ -7,15 +7,13 @@ import Contact from "./Components/Contact";
 
 function App() {
     return (
-        <div className="App">
-            <div className="Container">
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/project/planetdata" component={PlanetData} />
-                    <Route exact path="/project/grailhouse" component={GrailHouse} />
-                    <Route exact path="/" component={Contact} />
-                </Switch>
-            </div>
+        <div className="app">
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/project/planetdata" component={PlanetData} />
+                <Route exact path="/project/grailhouse" component={GrailHouse} />
+                <Route exact path="/contact" component={Contact} />
+            </Switch>
         </div>
     );
 }
