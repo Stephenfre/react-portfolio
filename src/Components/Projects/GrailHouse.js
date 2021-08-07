@@ -41,7 +41,7 @@ export default function GrailHouse() {
                 </div>
                 <div className="btn">
                     <a href="https://grailhouse.app" className="btn-links-project">
-                        View Projects
+                        View Project
                     </a>
                     <a href="https://github.com/grailhouse" className="btn2-links-project">
                         View Github

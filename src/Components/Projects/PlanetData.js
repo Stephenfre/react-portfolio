@@ -41,7 +41,7 @@ export default function PlanetData() {
                 </div>
                 <div className="btn">
                     <a href="https://planetdata.vision/" className="btn-links-project">
-                        View Projects
+                        View Project
                     </a>
                     <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
                         View Github

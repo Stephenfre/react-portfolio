@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Icon, InlineIcon } from "@iconify/react";
+import { Icon } from "@iconify/react";
 import houseDoorFill from "@iconify/icons-bi/house-door-fill";
 
 import "./Nav.css";
