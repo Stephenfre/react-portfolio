@@ -1,8 +1,10 @@
 import React from "react";
-import Nav from "./Nav";
-import DeskSetup from "../Svg/desk-setup.png";
-import "./Home.css";
 import { Link } from "react-router-dom";
+
+import Nav from "./Nav";
+import "./Home.css";
+import DeskSetup from "../Svg/desk-setup.png";
+
 export default function PlanetData() {
     return (
         <div className="container">
@@ -21,9 +23,14 @@ export default function PlanetData() {
                 <div className="about-me-img">
                     <img src={DeskSetup} alt="desk" />
                 </div>
-                <Link to="/project/planetdata" className="btn-links">
-                    View Projects
-                </Link>
+                <div className="btn">
+                    <Link to="/project/planetdata" className="btn-links">
+                        View Projects
+                    </Link>
+                    <a href="https://github.com/Stephenfre" className="btn2-links">
+                        View Github
+                    </a>
+                </div>
             </div>
         </div>
     );
