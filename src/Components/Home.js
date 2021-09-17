@@ -3,14 +3,22 @@ import { Link } from "react-router-dom";
 
 import Nav from "./Nav";
 import "./Home.css";
-import DeskSetup from "../Svg/desk-setup.png";
+import Memoji from "../Svg/memoji.svg";
 
-export default function PlanetData() {
+export default function Home() {
     return (
-        <div className="container">
+        <React.Fragment>
             <Nav />
             <div className="content">
                 <div className="about-me">
+                    <div className="btn-mobile">
+                        <Link to="/project/planetdata" className="btn-links">
+                            View Projects
+                        </Link>
+                        <a href="https://github.com/Stephenfre" className="btn2-links">
+                            View Github
+                        </a>
+                    </div>
                     <h1>Stephen Freeman Jr.</h1>
                     <h5>Fullstack Engineer</h5>
                     <p>
@@ -21,7 +29,7 @@ export default function PlanetData() {
                     </p>
                 </div>
                 <div className="about-me-img">
-                    <img src={DeskSetup} alt="desk" />
+                    <img src={Memoji} alt="Memoji" />
                 </div>
                 <div className="btn">
                     <Link to="/project/planetdata" className="btn-links">
@@ -32,6 +40,6 @@ export default function PlanetData() {
                     </a>
                 </div>
             </div>
-        </div>
+        </React.Fragment>
     );
 }
