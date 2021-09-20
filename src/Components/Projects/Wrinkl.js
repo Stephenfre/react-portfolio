@@ -31,7 +31,7 @@ export default function Wrinkl() {
                     <br />
 
                     <div className="role-info">
-                        <p style={{ paddingTop: "15px" }}>My Role:</p>
+                        <p>My Role:</p>
                         <p>
                             Wrinkl is a company my brother and I started. My main responsibility so far has been to
                             design the user flow, and building Microfrontends.
@@ -45,9 +45,9 @@ export default function Wrinkl() {
                     <a href="https://wrinkl.io/" className="btn-links-project" style={{ color: "#292f3a" }}>
                         View Project
                     </a>
-                    <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
+                    {/* <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
                         View Github
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

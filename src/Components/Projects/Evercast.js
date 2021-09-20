@@ -29,12 +29,10 @@ export default function Evercast() {
                         information like precipitation probability, high and low temperatures, wind behavior (or lack
                         thereof), dew point, humidity percentage.
                     </p>
+                    <br />
                     <div className="role-info">
-                        <p style={{ paddingTop: "33px" }}>My Role:</p>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
-                            purus fames augue. Eu elementum ac tempor, orci.
-                        </p>
+                        <p>My Role:</p>
+                        <p>Evercast is in the design stage. I'll be designing this app using figma.</p>
                     </div>
                 </div>
                 <div className="project-img">
@@ -44,7 +42,7 @@ export default function Evercast() {
                     <a href="/" className="btn-links-project" style={{ color: "#FFB800" }}>
                         Coming Soon
                     </a>
-                    <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
+                    <a href="/" className="btn2-links-project">
                         Coming Soon
                     </a>
                 </div>

@@ -19,11 +19,12 @@
         flex-direction: column;
         justify-content: space-between;
         list-style: none;
+        padding: 0;
     }
 
     .project-links,
     .project2-links {
-        height: 100px;
+        height: 140px;
         opacity: 0.4;
         width: 100%;
         background: #969696;
@@ -139,7 +140,7 @@
 
     .project-links,
     .project2-links {
-        height: 100px;
+        height: 140px;
         width: 100%;
         opacity: 0.4;
         background: #969696;
@@ -263,7 +264,7 @@
 
     .project-links,
     .project2-links {
-        height: 60px;
+        height: 85px;
         width: 100%;
         opacity: 0.4;
         background: #969696;

@@ -15,8 +15,8 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/project/planetdata" component={PlanetData} />
                 <Route exact path="/project/grailhouse" component={GrailHouse} />
-                <Route exact path="/project/wrinkl" component={Wrinkl} />
-                <Route exact path="/project/comingsoon" component={Evercast} />
+                <Route exact path="/project/evercast" component={Evercast} />
+                {/* <Route exact path="/project/wrinkl" component={Wrinkl} /> */}
                 <Route exact path="/contact" component={Contact} />
             </Switch>
             {/* </div> */}

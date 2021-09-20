@@ -13,12 +13,12 @@ export default function ProjectLinks() {
                 <NavLink to="/project/grailhouse" className="project-links">
                     <li></li>
                 </NavLink>
-                <NavLink to="/project/wrinkl" className="project-links">
+                <NavLink to="/project/evercast" className="project-links">
                     <li></li>
                 </NavLink>
-                <NavLink to="/project/comingsoon" className="project-links">
+                {/* <NavLink to="/project/wrinkl" className="project-links">
                     <li></li>
-                </NavLink>
+                </NavLink> */}
             </ul>
         </div>
     );

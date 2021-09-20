@@ -1,43 +1,29 @@
 import React from "react";
-import Nav from "./Nav";
-import ProjectLinks from "./Projects/ProjectsLinks";
-import Earth from "../Svg/earth.svg";
+import HomeNav from "./HomeNav";
 
 export default function Contact() {
     return (
-        <React.Fragment>
-            <Nav />
+        <div className="container">
+            <HomeNav />
             <div className="content">
-                <ProjectLinks />
-                <div className="project-info">
+                <div className="about-me">
                     <h1>Contact</h1>
-                    <h5>React / Python / D3 / Material UI</h5>
-                    <p>
-                        Planet Dashboard is a realtime real world dashboard that teachs middle school students the
-                        fundamentals of data visualization using real world / realtime earth data pulled and refreshed
-                        from a variety of sources. There's multiple lessons for different aspects of planet earth that
-                        are interesting and important. Lacus ac elit, cursus lobortis magna accumsan. Nisl habitasse.
-                    </p>
-                    <div className="role-info">
-                        <h5 style={{ fontSize: "16px", fontWeight: "600" }}>My Role:</h5>
-                        <p style={{ padding: "0", fontWeight: "600" }}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
-                            purus fames augue. Eu elementum ac tempor, orci.
-                        </p>
-                    </div>
-                </div>
-                <div className="project-img">
-                    <img src={Earth} alt="earth" />
-                </div>
-                <div className="btn2">
-                    <a href="https://planetdata.vision/" className="btn-links-project">
-                        View Project
-                    </a>
-                    <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                        View Github
-                    </a>
+                    <h5 style={{ padding: "25px 0" }}>
+                        <strong>Email : </strong>{" "}
+                        <a href={"mailto:" + "stephen.freeman.dev@gmail.com"}>stephen.freeman.dev@gmail.com </a>
+                    </h5>
+                    <h5 style={{ padding: "25px 0" }}>
+                        <strong>LinkedIn : </strong>{" "}
+                        <a href="https://www.linkedin.com/in/stephen-freeman/">linkedin.com/Stephen Freeman</a>
+                    </h5>
+                    <h5 style={{ padding: "25px 0" }}>
+                        <strong>Github :</strong> <a href="https://www.github.com/stephenfre">Stephenfre</a>
+                    </h5>
+                    <h5 style={{ padding: "25px 0" }}>
+                        <strong>Twitter : </strong> <a href="https://www.twitter.com/devstephenfre">@Devstephenfre</a>
+                    </h5>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }
