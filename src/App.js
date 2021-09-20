@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./Components/Home";
 import PlanetData from "./Components/Projects/PlanetData";
 import GrailHouse from "./Components/Projects/GrailHouse";
-import Wrinkl from "./Components/Projects/Wrinkl";
+// import Wrinkl from "./Components/Projects/Wrinkl";
 import Evercast from "./Components/Projects/Evercast";
 import Contact from "./Components/Contact";
 
