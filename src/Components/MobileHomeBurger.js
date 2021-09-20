@@ -18,7 +18,7 @@ const StyledBurger = styled.div`
     div {
         width: 2rem;
         height: 0.25rem;
-        background-color: ${({ open }) => (open ? "#564f48" : "white")};
+        background-color: ${({ open }) => (open ? "#564f48" : "#564f48")};
         border-radius: 10px;
         transform-origin: 1px;
         transition: all 0.3s linear;
@@ -35,7 +35,7 @@ const StyledBurger = styled.div`
     }
 `;
 
-const Burger = () => {
+const MobileHomeBurger = () => {
     const [open, setOpen] = useState(false);
 
     return (
@@ -50,4 +50,4 @@ const Burger = () => {
     );
 };
 
-export default Burger;
+export default MobileHomeBurger;

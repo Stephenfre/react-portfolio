@@ -2,34 +2,35 @@ import React from "react";
 
 import Nav from "../Nav";
 import "./Project.css";
-import Earth from "../../Svg/earth.svg";
+import Cloudy from "../../Svg/evercast.svg";
 import ProjectLinks from "./ProjectsLinks";
 
-export default function ComingSoon() {
+export default function Evercast() {
     return (
-        <React.Fragment>
+        <div className="container" style={{ background: "#FFB800" }}>
             <Nav />
+            <hr className="hr" style={{ border: " 1px solid #f7b200" }} />
             <div className="content">
                 <ProjectLinks />
                 <div className="project-info">
                     <div className="btn2-mobile">
-                        <a href="https://planetdata.vision/" className="btn-links-project">
-                            View Project
+                        <a href="/" className="btn-links-project" style={{ color: "#FFB800" }}>
+                            Coming Soon
                         </a>
                         <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                            View Github
+                            Coming Soon
                         </a>
                     </div>
-                    <h1>Coming Soon</h1>
-                    <h5>React / NodeJs / Tailwind CSS</h5>
+                    <h1>Evercast</h1>
+                    <h5>React Native / Tailwind CSS</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in purus
-                        fames augue. Eu elementum ac tempor, orci. Aliquam pharetra vulputate luctus lacus. Mi, platea
-                        sem eget ridiculus lobortis ullamcorper a. Turpis pharetra eget blandit a ultrices vel lacinia
-                        pellentesque. Lacus ac elit, cursus lobortis magna accumsan. Nisl habitasse sit dolor in id.{" "}
+                        The Evercast weather forecast app gives you accurate day-by-day forecasts for wherever your
+                        location happens to be. Forecasts are presented in easy-to-read, concise view packed with
+                        information like precipitation probability, high and low temperatures, wind behavior (or lack
+                        thereof), dew point, humidity percentage.
                     </p>
                     <div className="role-info">
-                        <h5>My Role:</h5>
+                        <p style={{ paddingTop: "33px" }}>My Role:</p>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
                             purus fames augue. Eu elementum ac tempor, orci.
@@ -37,17 +38,17 @@ export default function ComingSoon() {
                     </div>
                 </div>
                 <div className="project-img">
-                    <img src={Earth} alt="earth" />
+                    <img src={Cloudy} alt="cloudy" />
                 </div>
                 <div className="btn2">
-                    <a href="https://planetdata.vision/" className="btn-links-project">
-                        View Project
+                    <a href="/" className="btn-links-project" style={{ color: "#FFB800" }}>
+                        Coming Soon
                     </a>
                     <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                        View Github
+                        Coming Soon
                     </a>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }

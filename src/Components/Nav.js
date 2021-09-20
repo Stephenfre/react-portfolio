@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Burger from "./Burger";
+import Resume from "../Docs/Resume2021.pdf";
 
 import "./Nav.css";
 
@@ -16,13 +17,13 @@ export default function Navigation() {
                         <li>Projects</li>
                     </Link>
 
-                    <Link className="Link" to="/">
+                    <a href={Resume} className="Link">
                         <li>Resume</li>
-                    </Link>
+                    </a>
 
-                    <Link to="/" className="Link">
+                    <a href="https://medium.com/drippingincode" className="Link">
                         <li>Blog</li>
-                    </Link>
+                    </a>
 
                     <Link to="/contact" className="Link">
                         <li>Contact</li>

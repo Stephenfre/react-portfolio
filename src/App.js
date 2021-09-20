@@ -4,22 +4,22 @@ import Home from "./Components/Home";
 import PlanetData from "./Components/Projects/PlanetData";
 import GrailHouse from "./Components/Projects/GrailHouse";
 import Wrinkl from "./Components/Projects/Wrinkl";
-import ComingSoon from "./Components/Projects/ComingSoon";
+import Evercast from "./Components/Projects/Evercast";
 import Contact from "./Components/Contact";
 
 function App() {
     return (
         <div className="app">
-            <div className="container">
-                <Switch>
-                    <Route exact path="/" component={Home} />
-                    <Route exact path="/project/planetdata" component={PlanetData} />
-                    <Route exact path="/project/grailhouse" component={GrailHouse} />
-                    <Route exact path="/project/wrinkl" component={Wrinkl} />
-                    <Route exact path="/project/comingsoon" component={ComingSoon} />
-                    <Route exact path="/contact" component={Contact} />
-                </Switch>
-            </div>
+            {/* <div className="container"> */}
+            <Switch>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/project/planetdata" component={PlanetData} />
+                <Route exact path="/project/grailhouse" component={GrailHouse} />
+                <Route exact path="/project/wrinkl" component={Wrinkl} />
+                <Route exact path="/project/comingsoon" component={Evercast} />
+                <Route exact path="/contact" component={Contact} />
+            </Switch>
+            {/* </div> */}
         </div>
     );
 }

@@ -3,7 +3,7 @@
         width: 100%;
         height: 75px;
         display: flex;
-        border-bottom: 0.5px solid #e6e6e6;
+        /* border-bottom: 0.5px solid #e6e6e6; */
     }
 
     .nav-mobile {
@@ -21,7 +21,7 @@
     }
 
     .Link {
-        color: #564f48;
+        color: white;
         text-decoration: none;
         list-style: none;
         margin: 0 20px;
@@ -30,7 +30,7 @@
     li {
         font-family: "Roboto", sans-serif;
         font-size: 16px;
-        font-weight: 300;
+        font-weight: 400;
     }
 }
 
@@ -39,7 +39,7 @@
         width: 100%;
         height: 75px;
         display: flex;
-        border-bottom: 0.5px solid #e6e6e6;
+        /* border-bottom: 0.5px solid #e6e6e6; */
     }
 
     .nav-mobile {
@@ -57,7 +57,7 @@
     }
 
     .Link {
-        color: #564f48;
+        color: white;
         text-decoration: none;
         list-style: none;
         margin: 0 20px;

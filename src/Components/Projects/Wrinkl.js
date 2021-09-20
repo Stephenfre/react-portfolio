@@ -7,13 +7,14 @@ import ProjectLinks from "./ProjectsLinks";
 
 export default function Wrinkl() {
     return (
-        <React.Fragment>
+        <div className="container" style={{ background: "#2D3440" }}>
             <Nav />
+            <hr className="hr" style={{ border: " 1px solid #292f3a" }} />
             <div className="content">
                 <ProjectLinks />
                 <div className="project-info">
                     <div className="btn2-mobile">
-                        <a href="https://planetdata.vision/" className="btn-links-project">
+                        <a href="https://wrinkl.io/" className="btn-links-project" style={{ color: "#292f3a" }}>
                             View Project
                         </a>
                         <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
@@ -23,16 +24,17 @@ export default function Wrinkl() {
                     <h1>Wrinkl</h1>
                     <h5>React / NodeJs / Tailwind CSS</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in purus
-                        fames augue. Eu elementum ac tempor, orci. Aliquam pharetra vulputate luctus lacus. Mi, platea
-                        sem eget ridiculus lobortis ullamcorper a. Turpis pharetra eget blandit a ultrices vel lacinia
-                        pellentesque. Lacus ac elit, cursus lobortis magna accumsan. Nisl habitasse sit dolor in id.{" "}
+                        Wrinkl is professional laundry service that dry clean and launders your clothes before returning
+                        them to you. Wrinkl takes care of all the hassles so you can focus on doing what's important.
+                        Wrinkl gives you the time back in your day so you can focus on what matters most to YOU!
                     </p>
+                    <br />
+
                     <div className="role-info">
-                        <h5>My Role:</h5>
+                        <p style={{ paddingTop: "15px" }}>My Role:</p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
-                            purus fames augue. Eu elementum ac tempor, orci.
+                            Wrinkl is a company my brother and I started. My main responsibility so far has been to
+                            design the user flow, and building Microfrontends.
                         </p>
                     </div>
                 </div>
@@ -40,7 +42,7 @@ export default function Wrinkl() {
                     <img src={WrinklLogo} alt="logo" />
                 </div>
                 <div className="btn2">
-                    <a href="https://planetdata.vision/" className="btn-links-project">
+                    <a href="https://wrinkl.io/" className="btn-links-project" style={{ color: "#292f3a" }}>
                         View Project
                     </a>
                     <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
@@ -48,6 +50,6 @@ export default function Wrinkl() {
                     </a>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }

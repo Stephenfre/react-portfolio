@@ -7,13 +7,14 @@ import ProjectLinks from "./ProjectsLinks";
 
 export default function PlanetData() {
     return (
-        <React.Fragment>
+        <div className="container" style={{ background: "#15327A" }}>
             <Nav />
+            <hr className="hr" style={{ border: " 1px solid #142e71" }} />
             <div className="content">
                 <ProjectLinks />
                 <div className="project-info">
                     <div className="btn2-mobile">
-                        <a href="https://planetdata.vision/" className="btn-links-project">
+                        <a href="https://planetdata.vision/" className="btn-links-project" style={{ color: "#15327A" }}>
                             View Project
                         </a>
                         <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
@@ -23,16 +24,18 @@ export default function PlanetData() {
                     <h1>Planet Data</h1>
                     <h5>React / Python / D3 / Material UI</h5>
                     <p>
-                        Planet Dashboard is a realtime real world dashboard that teachs middle school students the
-                        fundamentals of data visualization using real world / realtime earth data pulled and refreshed
-                        from a variety of sources. There's multiple lessons for different aspects of planet earth that
-                        are interesting and important. Lacus ac elit, cursus lobortis magna accumsan. Nisl habitasse.
+                        Planet Data is where learning meets global data driven research! Planet Data is the only
+                        platform that curates science-based content, resources and insights to help you glean all the
+                        resources available on how global data driven research affects our day-to-day lives. There's
+                        multiple visualizations and quizzes for different aspects of planet earth that are interesting
+                        and important.
                     </p>
                     <div className="role-info">
-                        <h5>My Role:</h5>
+                        <p>My Role:</p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
-                            purus fames augue. Eu elementum ac tempor, orci.
+                            My role was to design and build a user freindly dashboard, create quizzes for user
+                            interaction, and build multiple visualizations such as the Global Cases and Air Quality
+                            Effect visualizations.
                         </p>
                     </div>
                 </div>
@@ -40,7 +43,7 @@ export default function PlanetData() {
                     <img src={Earth} alt="earth" />
                 </div>
                 <div className="btn2">
-                    <a href="https://planetdata.vision/" className="btn-links-project">
+                    <a href="https://planetdata.vision/" className="btn-links-project" style={{ color: "#15327A" }}>
                         View Project
                     </a>
                     <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
@@ -48,6 +51,6 @@ export default function PlanetData() {
                     </a>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }

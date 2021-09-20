@@ -7,13 +7,14 @@ import ProjectLinks from "./ProjectsLinks";
 
 export default function GrailHouse() {
     return (
-        <React.Fragment>
+        <div className="container" style={{ background: "#1b1b1b" }}>
             <Nav />
+            <hr className="hr" style={{ border: " 1px solid #171717" }} />
             <div className="content">
                 <ProjectLinks />
                 <div className="project-info">
                     <div className="btn2-mobile">
-                        <a href="https://planetdata.vision/" className="btn-links-project">
+                        <a href="https://grailhouse.app" className="btn-links-project" style={{ color: "black" }}>
                             View Project
                         </a>
                         <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
@@ -21,19 +22,19 @@ export default function GrailHouse() {
                         </a>
                     </div>
                     <h1>Grail House </h1>
-                    <h5>React / Redux / Node JS / Css</h5>
+                    <h5>React / Redux / Node JS / CSS</h5>
                     <p>
-                        Grail House is a web, where sneakerheads can showcase their sneaker collection and also see what
-                        prices ther sneakers are reselling for on other apps (Stock X, Goat, Stadium Goods, and Flight
-                        Club). Turpis pharetra eget blandit a ultrices vel lacinia pellentesque. Lacus ac elit, cursus
-                        lobortis magna accumsan. Nisl habitasse sit dolor in id. Nisl habitasse sit dolor in id. Lacus
-                        ac elit.{" "}
+                        Grail House is the app sneaker lovers have been waiting for. With over a thousand different
+                        pairs of sneakers, Grail House provides a space where you can create your own digital shoe
+                        closet and see what prices your shoes are reselling for on other sneaker apps. Soon Grail House
+                        will let sneaker collectors show off their prized finds to other enthusiasts all in one place.
                     </p>
                     <div className="role-info">
-                        <h5>My Role:</h5>
+                        <p>My Role:</p>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in
-                            purus fames augue. Eu elementum ac tempor, orci.
+                            Grail House started off as a personal project but quickly turned into a passion. This was
+                            built using React and MonogDB with Node JS to create a RESTful api. I also used figma for ux
+                            / ui design.
                         </p>
                     </div>
                 </div>
@@ -41,7 +42,7 @@ export default function GrailHouse() {
                     <img src={GrailHouseSvg} alt="GrailHouse" />
                 </div>
                 <div className="btn2">
-                    <a href="https://grailhouse.app" className="btn-links-project">
+                    <a href="https://grailhouse.app" className="btn-links-project" style={{ color: "black" }}>
                         View Project
                     </a>
                     <a href="https://github.com/grailhouse" className="btn2-links-project">
@@ -49,6 +50,6 @@ export default function GrailHouse() {
                     </a>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }

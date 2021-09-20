@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import Nav from "./Nav";
 import "./Home.css";
 import Memoji from "../Svg/memoji.svg";
+import HomeNav from "./HomeNav";
 
 export default function Home() {
     return (
-        <React.Fragment>
-            <Nav />
+        <div className="container">
+            <HomeNav />
             <div className="content">
                 <div className="about-me">
                     <div className="btn-mobile">
@@ -22,10 +22,10 @@ export default function Home() {
                     <h1>Stephen Freeman Jr.</h1>
                     <h5>Fullstack Engineer</h5>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodo aliquam enim egestas in purus
-                        fames augue. Eu elementum ac tempor, orci. Aliquam pharetra vulputate luctus lacus. Mi, platea
-                        sem eget ridiculus lobortis ullamcorper a. Turpis pharetra eget blandit a ultrices vel lacinia
-                        pellentesque. Lacus ac elit, cursus lobortis magna accumsan. Nisl habitasse sit dolor in id.{" "}
+                        Hi, I’m Stephen. I’m a developer living in Phoenix, Az. I am currently looking for an internship
+                        or job opportunity where I can grow as a developer and lend my skills to a team. I love coding
+                        because it allows me to explore my creativity and create something that people all around the
+                        world can use. When I’m not coding, I’m making music, going to the gym, or reading.
                     </p>
                 </div>
                 <div className="about-me-img">
@@ -40,6 +40,6 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-        </React.Fragment>
+        </div>
     );
 }
