@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import Resume from "../Docs/Resume2021.pdf";
 
 const Ul = styled.ul`
     list-style: none;
@@ -31,33 +32,33 @@ const Ul = styled.ul`
     z-index: 9998;
 `;
 
-const Links = styled(Link)`
-    text-decoration: none;
-    color: #afafaf;
-    font-size: 20px;
-`;
+// const Links = styled(Link)`
+//     text-decoration: none;
+//     color: #afafaf;
+//     font-size: 20px;
+// `;
 
 const MobileNav = ({ open }) => {
     return (
         <Ul open={open}>
-            <Links to="/" className="Link">
+            <Link to="/" className="Link">
                 <li>Home</li>
-            </Links>
-            <Links to="/project/planetdata" className="Link">
+            </Link>
+            <Link to="/project/planetdata" className="Link">
                 <li>Projects</li>
-            </Links>
+            </Link>
 
-            <Links className="Link" to="/">
+            <a href={Resume} className="Link">
                 <li>Resume</li>
-            </Links>
+            </a>
 
-            <Links to="/" className="Link">
+            <a href="https://medium.com/drippingincode" className="Link">
                 <li>Blog</li>
-            </Links>
+            </a>
 
-            <Links to="/contact" className="Link">
+            <Link to="/contact" className="Link">
                 <li>Contact</li>
-            </Links>
+            </Link>
         </Ul>
     );
 };
