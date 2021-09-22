@@ -14,11 +14,20 @@ export default function Evercast() {
                 <ProjectLinks />
                 <div className="project-info">
                     <div className="btn2-mobile">
-                        <a href="/" className="btn-links-project" style={{ color: "#FFB800" }}>
-                            Coming Soon
+                        <a
+                            href="/"
+                            className="btn-links-project"
+                            style={{ color: "darkgrey", background: "grey", pointerEvents: "none" }}
+                        >
+                            View Project
                         </a>
-                        <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                            Coming Soon
+                        <a
+                            disable
+                            href="https://github.com/Stephenfre/earth-dashboard-fe"
+                            className="btn2-links-project"
+                            style={{ color: "grey", border: "1px solid grey", pointerEvents: "none" }}
+                        >
+                            View Github
                         </a>
                     </div>
                     <h1>Evercast</h1>
@@ -39,11 +48,19 @@ export default function Evercast() {
                     <img src={Cloudy} alt="cloudy" />
                 </div>
                 <div className="btn2">
-                    <a href="/" className="btn-links-project" style={{ color: "#FFB800" }}>
-                        Coming Soon
+                    <a
+                        href="/"
+                        className="btn-links-project"
+                        style={{ color: "darkgrey", background: "grey", pointerEvents: "none" }}
+                    >
+                        View Project
                     </a>
-                    <a href="/" className="btn2-links-project">
-                        Coming Soon
+                    <a
+                        href="/"
+                        className="btn2-links-project"
+                        style={{ color: "grey", border: "1px solid grey", pointerEvents: "none" }}
+                    >
+                        View Github
                     </a>
                 </div>
             </div>
