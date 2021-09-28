@@ -21,6 +21,7 @@ export default function Home() {
                     </div>
                     <h1>Stephen Freeman Jr.</h1>
                     <h5>Fullstack Engineer</h5>
+                    <p className="skills">React | Redux | MonogDB | Node JS | SASS | Bootstrap | Jest </p>
                     <p>
                         Hi, I’m Stephen. I’m a developer living in Phoenix, Az. I am currently looking for an internship
                         or job opportunity where I can grow as a developer and lend my skills to a team. I love coding

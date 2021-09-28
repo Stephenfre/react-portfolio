@@ -6,8 +6,8 @@ const StyledBurger = styled.div`
     width: 2rem;
     height: 2rem;
     position: fixed;
-    top: 15px;
-    left: 360px;
+    top: 1.8%;
+    left: 86%;
     z-index: 9999;
     display: none;
     @media (max-width: 600px) {
