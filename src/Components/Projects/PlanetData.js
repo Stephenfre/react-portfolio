@@ -1,8 +1,6 @@
-import React from "react";
-
+import Earth from "../../Svg/earth.svg";
 import Nav from "../Nav";
 import "./Project.css";
-import Earth from "../../Svg/earth.svg";
 import ProjectLinks from "./ProjectsLinks";
 
 export default function PlanetData() {
@@ -16,9 +14,6 @@ export default function PlanetData() {
                     <div className="btn2-mobile">
                         <a href="https://planetdata.vision/" className="btn-links-project" style={{ color: "#15327A" }}>
                             View Project
-                        </a>
-                        <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                            View Github
                         </a>
                     </div>
                     <h1>Planet Data</h1>
@@ -45,9 +40,6 @@ export default function PlanetData() {
                 <div className="btn2">
                     <a href="https://planetdata.vision/" className="btn-links-project" style={{ color: "#15327A" }}>
                         View Project
-                    </a>
-                    <a href="https://github.com/Stephenfre/earth-dashboard-fe" className="btn2-links-project">
-                        View Github
                     </a>
                 </div>
             </div>

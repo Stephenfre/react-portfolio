@@ -1,8 +1,6 @@
-import React from "react";
-
+import Cloudy from "../../Svg/evercast.svg";
 import Nav from "../Nav";
 import "./Project.css";
-import Cloudy from "../../Svg/evercast.svg";
 import ProjectLinks from "./ProjectsLinks";
 
 export default function Evercast() {
@@ -15,15 +13,7 @@ export default function Evercast() {
                 <div className="project-info">
                     <div className="btn2-mobile">
                         <a
-                            href="/"
-                            className="btn-links-project"
-                            style={{ color: "darkgrey", background: "grey", pointerEvents: "none" }}
-                        >
-                            View Project
-                        </a>
-                        <a
-                            disable
-                            href="https://github.com/Stephenfre/earth-dashboard-fe"
+                            href="https://github.com/Stephenfre/evercast"
                             className="btn2-links-project"
                             style={{ color: "grey", border: "1px solid grey", pointerEvents: "none" }}
                         >
@@ -31,7 +21,7 @@ export default function Evercast() {
                         </a>
                     </div>
                     <h1>Evercast</h1>
-                    <h5>React Native / Tailwind CSS</h5>
+                    <h5>React Native / Styled-Components</h5>
                     <p>
                         The Evercast weather forecast app gives you accurate day-by-day forecasts for wherever your
                         location happens to be. Forecasts are presented in easy-to-read, concise view packed with
@@ -49,16 +39,9 @@ export default function Evercast() {
                 </div>
                 <div className="btn2">
                     <a
-                        href="/"
-                        className="btn-links-project"
-                        style={{ color: "darkgrey", background: "grey", pointerEvents: "none" }}
-                    >
-                        View Project
-                    </a>
-                    <a
-                        href="/"
+                        href="https://github.com/Stephenfre/evercast"
                         className="btn2-links-project"
-                        style={{ color: "grey", border: "1px solid grey", pointerEvents: "none" }}
+                        style={{ color: "white", border: "1px solid white" }}
                     >
                         View Github
                     </a>
