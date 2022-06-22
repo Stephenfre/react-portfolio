@@ -23,7 +23,7 @@ export default function PlanetData() {
                         platform that curates science-based content, resources and insights to help you glean all the
                         resources available on how global data driven research affects our day-to-day lives. There's
                         multiple visualizations and quizzes for different aspects of planet earth that are interesting
-                        and impor
+                        and important.
                     </p>
                     <div className="role-info">
                         <p>My Role:</p>
