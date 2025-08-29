@@ -1,18 +1,17 @@
 import { useState } from "react";
 import { cn } from "../utils/cn";
-import { text } from "stream/consumers";
 
 interface ProjectListProps {
   label: string;
   title: string;
   description: string;
-  tech?: string[];
+  tech: string[];
 }
 
-const projectList = [
+const projectList: ProjectListProps[] = [
   {
     label: "TrendZone",
-    name: "NFL TrendZone",
+    title: "NFL TrendZone",
     description: `NFL TrendZone is an interactive analytics dashboard that visualizes NFL player and 
     team performance trends over time. Users can search for players, compare stats, 
     and explore matchup insights with clean, dynamic charts. The app transforms raw NFL roster and game
@@ -20,7 +19,7 @@ const projectList = [
      and analysts spot breakout players and shifting team dynamics.Built with a focus on data transformation, 
      visualization, and performance optimization, NFL TrendZone demonstrates real-world engineering skills: 
      API integration, caching, and responsive chart rendering at scale.`,
-    techStack: [
+    tech: [
       "React",
       "Tailwind",
       "Recharts",
@@ -32,7 +31,7 @@ const projectList = [
 ];
 
 export default function Work() {
-  const [active, setActive] = useState<string>(projectList[0].name);
+  const [active, setActive] = useState<string>(projectList[0].title);
 
   console.log(active);
 
@@ -46,13 +45,13 @@ export default function Work() {
       <div className="flex-1 flex">
         <div className="flex flex-col items-center justify-center space-y-6 px-8 py-12">
           {projectList.map((project) => {
-            console.log(active === project.name);
+            console.log(active === project.title);
             return (
               <button
-                onClick={() => setActive(project.name)}
+                onClick={() => setActive(project.title)}
                 className={cn(
                   "hover:text-orange-500 dark:text-zinc-300 dark:hover:text-orange-400 transition-colors font-medium",
-                  active === project.name ? "text-orange-500" : "text-zinc-600"
+                  active === project.title ? "text-orange-500" : "text-zinc-600"
                 )}
               >
                 {project.label}
@@ -65,11 +64,11 @@ export default function Work() {
           return (
             <div className="flex-1 flex flex-col justify-center px-12 py-16">
               <h1 className="text-4xl mb-2 font-bold leading-tight cursor-default">
-                {project.name}
+                {project.title}
               </h1>
 
               <div className="flex flex-row justify-between  mb-2">
-                {project.techStack.map((tech) => {
+                {project.tech.map((tech) => {
                   return (
                     <p className="text-sm font-semibold tracking-wide text-zinc-700 dark:text-zinc-300">
                       {tech},
