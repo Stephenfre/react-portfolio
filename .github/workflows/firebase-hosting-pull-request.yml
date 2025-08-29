@@ -26,3 +26,5 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV_PORTFOLIO2021 }}
           projectId: dev-portfolio2021
+          entryPoint: '.'
+          buildCommand: echo "Build already completed"
