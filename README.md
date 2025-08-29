@@ -1,46 +1,105 @@
-# Getting Started with Create React App
+# Kenneth Jimmy Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, minimalist portfolio website built with React, TypeScript, and Tailwind CSS.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Clean Design**: Minimalist layout with a focus on content
+- **Responsive**: Works on desktop and mobile devices
+- **Modern Tech Stack**: Built with React 19, TypeScript, and Tailwind CSS
+- **Professional Look**: Matches the design specification with dark gray and orange accent colors
 
-### `npm start`
+## Design Elements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Header**: Logo, email, settings icon, and navigation menu
+- **Hero Section**: 
+  - Social media links (LinkedIn, GitHub, Twitter)
+  - Introduction with "It's me" speech bubble
+  - Name and title
+  - Professional description
+  - Call-to-action button
+  - Profile illustration
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Color Scheme
 
-### `npm test`
+- **Primary**: Dark Gray (#374151)
+- **Accent**: Orange (#f97316)
+- **Background**: White
+- **Text**: Dark Gray
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js (version 14 or higher)
+- npm or yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd portfolio-app
+```
 
-### `npm run eject`
+2. Install dependencies:
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Start the development server:
+```bash
+npm start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Available Scripts
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-## Learn More
+## Project Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+src/
+├── components/
+│   ├── Header.tsx      # Navigation header component
+│   └── Hero.tsx        # Main hero section component
+├── App.tsx             # Main app component
+├── index.tsx           # App entry point
+└── index.css           # Global styles with Tailwind CSS
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+
+- **React 19**: Modern React with latest features
+- **TypeScript**: Type-safe JavaScript
+- **Tailwind CSS**: Utility-first CSS framework
+- **Create React App**: React development environment
+
+## Customization
+
+To customize the portfolio:
+
+1. **Personal Information**: Update the content in `src/components/Hero.tsx`
+2. **Contact Details**: Modify email and social links in `src/components/Header.tsx`
+3. **Colors**: Adjust the color scheme in `tailwind.config.js`
+4. **Styling**: Modify Tailwind classes in the component files
+
+## Deployment
+
+The app can be deployed to any static hosting service:
+
+1. Build the production version:
+```bash
+npm run build
+```
+
+2. Deploy the `build` folder to your hosting service of choice (Netlify, Vercel, GitHub Pages, etc.)
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
